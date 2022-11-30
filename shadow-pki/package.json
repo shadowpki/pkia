@@ -1,0 +1,21 @@
+{
+  "name": "pkia",
+  "version": "1.0.0",
+  "description": " Efficient Public Key Infrastructure Anonymization (PKIA) Construction",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha -u tdd --no-timeout"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.874.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "openpgp": "^5.0.0-1",
+    "trs-js": "^0.2.0",
+    "uuid": "^8.3.2"
+  }
+}
